@@ -5,7 +5,12 @@
 }
 
 html {
-  background-color: #0f0e17;
+  /*background-color: #0f0e17;*/
+  background-image: url("https://cdn.glitch.global/b3fabd8f-d8a8-47ea-9e16-a4bff0c1234a/y-so-serious.png?v=1664345580503");
+  /* this background part was in canvas, not video */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
   color: #a7a9be;
@@ -31,6 +36,20 @@ li {
 
 a:link {
   color: #f25f4c;
+}
+
+img {
+  opacity: 0.7;
+  height: 500px;
+  width: auto;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
 }
 
 /* no touchy */
